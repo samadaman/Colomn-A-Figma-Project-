@@ -1,0 +1,67 @@
+    .child-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;   
+}
+.child-box input{
+    width: 300px;
+    height: 45px;
+    margin: 10px;
+    border: none;
+    border: 1px solid rgb(194, 194, 194);
+    border-radius: 5px;
+    box-shadow: 0px 0px 0px 1px rgb(196, 194, 194);
+    background-color: rgb(241, 241, 241);
+}
+.child-box input::placeholder{
+    padding-left: 15px;
+    color: rgb(196, 194, 194);
+    font-size: 20px;   
+    font-family: 'Rubik', sans-serif;
+
+}
+.child-box h1{
+    font-family: 'Rubik', sans-serif;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+.signin12{
+    margin-top: 10px;
+    height: 45px;
+    width: 305px;
+    background-color: rgb(101, 106, 252);
+    color: #fff;
+    border: none;
+    border: 1px solid rgb(101, 106, 252);
+    border-radius: 6px;
+    font-family: 'Rubik', sans-serif;
+    font-size: large;
+}
+.link{
+    margin: 25px;
+    text-decoration: none;
+    font-family: 'Rubik', sans-serif;
+    color: rgb(196, 194, 194);
+    font-size: 17px;
+}
+.link22{
+    margin: 20px;
+    text-decoration: none;
+    font-family: 'Rubik', sans-serif;
+    color: grey;
+    font-size: 18px;
+}
+.account-btn{
+    height: 45px;
+    width: 300px;
+    border: none;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px 0px;
+    color: rgb(77, 77, 77);
+    font-family: 'Rubik', sans-serif;
+    font-size: large;
+    font-weight: bold;
+}
